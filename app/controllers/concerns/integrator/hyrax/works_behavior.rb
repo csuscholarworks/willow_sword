@@ -120,7 +120,9 @@ module Integrator
         # Override if we need to map the attributes from the parser in
         # a way that is compatible with how the factory needs them.
         def transform_attributes
-          WillowSword.config.before_work_transform_attributes.call(params, @attributes) if WillowSword.config.before_work_transform_attributes
+          if WillowSword.config.before_work_transform_attributes
+            WillowSword.config.before_work_transform_attributes.call(params, @attributes, @dir)
+          end
 
           # TODO: attributes are strings and not symbols
           @attributes['visibility'] = WillowSword.config.default_visibility if @attributes.fetch('visibility', nil).blank?
