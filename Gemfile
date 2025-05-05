@@ -13,11 +13,9 @@ gemspec
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
 
+gem 'concurrent-ruby', '1.3.4'
 group :test do
   gem 'rspec-rails' #, '~> 3.5'
-  gem 'factory_bot_rails' # , '~> 4.0'
+  gem 'factory_girl_rails' # , '~> 4.0'
   gem 'shoulda-matchers' #, '~> 3.1'
 end
-gem 'iso-639'
-
-gem 'awesome_print'
