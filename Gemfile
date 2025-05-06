@@ -13,7 +13,6 @@ gemspec
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
 
-gem 'concurrent-ruby', '1.3.4'
 group :test do
   gem 'rspec-rails' #, '~> 3.5'
   gem 'factory_girl_rails' # , '~> 4.0'
