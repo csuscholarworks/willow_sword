@@ -4,7 +4,7 @@ PATH
     willow_sword (0.2.0)
       bagit (~> 0.4.6)
       libxml-ruby (~> 5.0.3)
-      rails (>= 6.0.5)
+      rails (>= 7.2.2.1)
       rubyzip (>= 2.4.6)
 
 GEM
@@ -239,6 +239,3 @@ DEPENDENCIES
   rspec-rails
   shoulda-matchers
   willow_sword!
-
-BUNDLED WITH
-   2.4.22
