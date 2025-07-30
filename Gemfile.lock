@@ -2,10 +2,10 @@ PATH
   remote: .
   specs:
     willow_sword (0.2.0)
-      bagit (~> 0.4.1)
+      bagit (~> 0.4.6)
       libxml-ruby (~> 5.0.3)
       rails (>= 6.0.5)
-      rubyzip (>= 1.0.0)
+      rubyzip (>= 2.4.6)
 
 GEM
   remote: https://rubygems.org/
