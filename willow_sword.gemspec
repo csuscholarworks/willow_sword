@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", ">= 6.0.5"
-  s.add_dependency "bagit", "~> 0.4.1"
-  s.add_dependency "rubyzip", ">= 1.0.0"
+  s.add_dependency "bagit", "~> 0.4.6"
+  s.add_dependency "rubyzip", ">= 2.4.1"
   s.add_dependency "libxml-ruby", "~> 5.0.3"
   s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'shoulda-matchers'
